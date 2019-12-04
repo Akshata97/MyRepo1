@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="/signup" method="post">
+<fieldset>
+<legend>Personal details</legend>
+<p>
+<label>Title:</label>
+<label>
+<input type="radio" name="title" value="mr" required>
+Mr
+</label>
+<label>
+<input type="radio" name="title" value="mrs">
+Mrs
+</label>
+<label>
+<input type="radio" name="title" value="miss">
+Miss
+</label>
+</p>
+<p>
+<label>Full Name:</label><br>
+<input type="text" name="full_name" required>
+</p>
+<p>
+<label>Email:</label><br>
+<input type="email" name="email" placeholder="e.g. abc@gmail.com" required>
+</p>
+<p>
+<label>Password:</label><br>
+<input type="password" name="password" required>
+</p>
+<p>
+<label>Phone Number:</label><br>
+<input type="tel" name="phone" placeholder="945-281-1578" pattern="^\d{3}-\d{3}-\d{4}$" required>
+</p>
+<p>
+<label>Favorite Color:</label><br>
+<input type="color" name="mycolor" value="#00ff00">
+</p>
+<p>
+<label>Country:</label><br>
+<select name="country" required="required">
+<option value="none" selected disabled hidden>
+Select a Country
+<option>China</option>
+<option>India</option>
+<option>United States</option>
+<option>Indonesia</option>
+<option>Brazil</option>
+</select>
+</p>
+</fieldset>
+
+<fieldset>
+<legend>Enter Birth Details</legend>
+<p>
+<label>Birth Date:</label><br>
+<input type="date" name="birthdate" required>
+</p>
+<p>
+<label>Birth Time:</label><br>
+<input type="time" name="time" required>
+</p>
+<p>
+<label>Birth Week:</label><br>
+<input type="week" name="week" required>
+</p>
+</fieldset>
+
+<p>
+<label>
+<input type="checkbox" value="terms" required>
+I agree to the <a href=''>terms and conditions</a>
+</label>
+</p>
+
+<p>
+<button>Sign up</button>
+<button type="reset">Reset form</button>
+</p>
+
+</form>
+</body>
+</html>

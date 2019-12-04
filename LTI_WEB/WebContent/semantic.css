@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+article {
+  display: block;
+  color:tomato;
+  border-color: green;
+}
+
+nav {
+  display: block;
+  color:	#8A2BE2;
+  border-color: green;
+}
+
+aside {
+  display: block;
+  color:red;
+  border-color:yellow;
+}
+
+section {
+  display: block;
+  color:	#FF7F50;
+  border-style: solid;
+  border-color: aqua;
+}
+
+footer {
+  display: block;
+  color:navy;
+}
